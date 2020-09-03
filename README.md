@@ -25,15 +25,15 @@ Function that show a dataframe with the id of the monitor and
 the number of complete cases( sulfate and nitrate exist in the same date)
 for each input df
 This function has 2 arguments
-  + Directory
+  + Directory:
   Path to file
-  + Id
+  + Id :
   ID of the monitor to use
  
 The function returns a dataframe with 2 columns
-  + Id
+  + Id :
   ID of the monitor information
-  + nobs
+  + nobs :
   Number of complete cases of the current monitor
   
   
@@ -42,9 +42,9 @@ The function returns a dataframe with 2 columns
 This function calculates the correlation between sulfate and nitrate
 in air pollution.
 The function has 2 arguments
-  + Directory
+  + Directory :
   Path of files to use
-  + Threshold
+  + Threshold :
   Value to indicate the number of completely observer observations
   required to compute the correlation between nitrate and sulfate
   
