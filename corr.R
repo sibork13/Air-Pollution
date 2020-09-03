@@ -1,14 +1,14 @@
-'''
-Function that calculates the correlation between sulfate and nitrate
-in air pollution with data stored in monitors from USA
-'''
-
-'''
-The funtion return a vector with all correlation of all
-files in an specific directory, threshold is a limitor of number
-of cases. to meet threshold requeriments, bot values must exist
-sulfate and nitrate in the same date (row)
-'''
+# '''
+# Function that calculates the correlation between sulfate and nitrate
+# in air pollution with data stored in monitors from USA
+# '''
+#
+# '''
+# The funtion return a vector with all correlation of all
+# files in an specific directory, threshold is a limitor of number
+# of cases. to meet threshold requeriments, bot values must exist
+# sulfate and nitrate in the same date (row)
+# '''
 corr<-function(directory,threshold=0){
   temp <- list.files(directory,pattern="*.csv") # This line make an array of all files names
   cr<-vector()

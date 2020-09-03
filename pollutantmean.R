@@ -1,6 +1,6 @@
-'''This is an function to calculate the mean of sulfate or nitrate
-across a specifies list of monitors usning air pollution database
-'''
+# This is an function to calculate the mean of sulfate or nitrate
+# across a specifies list of monitors usning air pollution database
+
 pollutantmean<-function(directory,pullulant,id=1:332){
 
   promedio<-0

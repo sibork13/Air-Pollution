@@ -1,8 +1,7 @@
-'''
-Function that show a dataframe with the id of the monitor and
-the number of complete cases( sulfate and nitrate exist in the same date)
-for each input df
-'''
+# Function that show a dataframe with the id of the monitor and
+# the number of complete cases( sulfate and nitrate exist in the same date)
+# for each input df
+
 complete <- function(directory,id=1:332){
   numero <-sprintf("%03d",id)
   total<-0
